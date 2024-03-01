@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&display=swap");
+
+/* Sets all elements to not have any margin and paddings. Box-sizing:border-box does it so that padding and margin is 
+included in the width and height calculations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    border: none;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+    display:flex;
+    height:100%
+
+}
+.background {
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    height: 100%;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+}
+
+.logo{
+    display: flex;
+    height:20%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 200px;
+    /* that color gives it a seethrough black background */
+}
+.logo img{
+    max-width:50%;
+    max-height: 100%;
+}
+
+.logo p{
+    max-width:50%;
+    color: white;
+    font-size: min(5vw, 5rem);
+    
+}
+.credits {
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin-top:auto;
+}
+
+a, a:visited{
+    color:white;
+}
+
+.content{
+    background-color: green;
+    width:60%;
+}
