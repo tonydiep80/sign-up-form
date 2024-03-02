@@ -145,7 +145,7 @@ button[type="submit"]:hover{
 .login{
     margin-left: 2rem;
 }
-p a, p a:visited{
+.login a, .login a:visited{
     color: #596D48;
 }
 
