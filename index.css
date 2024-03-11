@@ -120,7 +120,14 @@ input{
     border-width: thin;
     height: 1.5rem;
 }
+input:invalid{
+    border-color:red;
+}
 
+#password_p{
+    color:red;
+    font-size:0.75rem;
+}
 div.submit{
     background-color: #f9fafb;
     
@@ -147,6 +154,10 @@ button[type="submit"]:hover{
 }
 .login a, .login a:visited{
     color: #596D48;
+}
+
+*:disabled{
+    background-color: dimgray;
 }
 
 
