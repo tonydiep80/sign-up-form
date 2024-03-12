@@ -84,6 +84,8 @@ a, a:visited{
 .quote p{
     padding:1rem;
     font-weight: bold;
+    font-size: max(1rem, 2vw);
+    overflow: hidden;
 }
 form{
     background-color: #ffffff;
