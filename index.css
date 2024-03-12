@@ -156,7 +156,7 @@ button[type="submit"]:hover{
     color: #596D48;
 }
 
-*:disabled{
+button[type="submit"]:disabled{
     background-color: dimgray;
 }
 
